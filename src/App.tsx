@@ -1,10 +1,11 @@
-import AppLayout from "./components/layout/AppLayout";
+
+import { RouterProvider } from "react-router-dom";
+import {router} from "./Router";
 
 function App() {
   return (
-    <>
-      <AppLayout/>
-    </>
+    <RouterProvider router={router} />
+
   );
 }
 

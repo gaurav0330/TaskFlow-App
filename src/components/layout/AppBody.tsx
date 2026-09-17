@@ -1,5 +1,5 @@
 import LeftSidebar from "../sections/LeftSidebar";
-import MainContent from "../sections/MainContent";
+import MainContent from "../sections/MainContent/MainContent";
 import RightSidebar from "../sections/RightSidebar";
 
 const AppBody = () => {
