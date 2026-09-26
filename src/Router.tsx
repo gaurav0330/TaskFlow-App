@@ -10,7 +10,7 @@ import AppLayout from "./components/layout/AppLayout";
 import DashboardPage from "./components/sections/MainContent/Dashboard/DashboardPage";
 import ProjectsPage from "./components/sections/MainContent/ProjectsPage";
 import LeaveRequestsPage from "./components/sections/MainContent/LeaveRequestsPage";
-import EmployeesPage from "./components/sections/MainContent/EmployeesPage";
+import EmployeesPage from "./components/sections/MainContent/Employee/EmployeesPage";
 import SettingsPage from "./components/sections/MainContent/SettingsPage";
 import NotFoundPage from "./NotFoundPage";
 

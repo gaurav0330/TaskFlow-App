@@ -4,7 +4,7 @@ import RightSidebar from "../sections/RightSidebar";
 
 const AppBody = () => {
   return (
-    <div className="flex flex-1 w-full">
+    <div className="flex min-h-0 flex-1 w-full overflow-hidden">
         <LeftSidebar/>
         <MainContent/>
         <RightSidebar/>

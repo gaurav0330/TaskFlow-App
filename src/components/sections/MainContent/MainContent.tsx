@@ -2,9 +2,11 @@ import { Outlet } from "react-router";
 import MainTabBar from "./MainTabBar";
 
 const MainContent = () => {
-  return <div className="flex-1 min-w-0 border-[1px] border-[#C9CEDA]">
+  return <div className="flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden border border-app-border" >
     <MainTabBar/>
-    <Outlet/>
+      <div className="min-h-0 flex-1 overflow-auto">
+        <Outlet />
+      </div>
   </div>;
 };
 

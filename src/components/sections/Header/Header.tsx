@@ -7,7 +7,7 @@ import Profile from "../Profile/Profile";
 
 const Header = () => {
   return (
-    <div className =" h-12.5 w-full flex items-center justify-between px-4 border-b-[1px] border-[#C9CEDA]">
+    <div className ="h-12.5 w-full flex items-center justify-between px-4">
    
       <div className="flex-hr gap-3">
         <div className="flex-hr gap-1">

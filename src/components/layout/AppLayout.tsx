@@ -4,7 +4,7 @@ import StatusBar from "../sections/StatusBar";
 
 const AppLayout = () => {
   return (
-    <div className="bg-app-bg flex flex-col h-screen">
+    <div className="flex h-screen flex-col overflow-hidden bg-app-bg">
       <Header/>
       <AppBody/>
       <StatusBar/>
